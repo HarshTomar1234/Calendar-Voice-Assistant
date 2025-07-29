@@ -25,7 +25,7 @@ Elena is an intelligent voice assistant built with Google's Agent Development Ki
 - **⚡ Real-time Streaming**: Live audio streaming with WebSocket connections
 - **🔐 Secure Authentication**: OAuth 2.0 integration with Google Calendar API
 
-### 🎯 What Elena Can Do
+###  What Elena Can Do
 
 - **📅 View Events**: "What's on my calendar today?" or "Show me next week's schedule"
 - **➕ Create Events**: "Schedule a meeting with John tomorrow at 2 PM"
