@@ -83,7 +83,7 @@ calendar-voice-assistant/
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/HarshTomar1234/Calendar-Voice-Assistant
 cd calendar-voice-assistant
 
 # Create virtual environment
