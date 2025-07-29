@@ -8,16 +8,15 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com)
-[![Google ADK](https://img.shields.io/badge/Google%20ADK-0.5.0-orange.svg)](https://developers.google.com/adk)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Google ADK](https://img.shields.io/badge/Google%20ADK-orange.svg)](https://google.github.io/adk-docs/)
 
 </div>
 
-## 🌟 Overview
+##  Overview
 
 Elena is an intelligent voice assistant built with Google's Agent Development Kit (ADK) that seamlessly integrates with Google Calendar. She can help you manage your schedule through natural voice conversations, making calendar management effortless and intuitive.
 
-### ✨ Key Features
+### Key Features
 
 - **🎤 Voice-First Interface**: Natural voice interactions with real-time speech recognition
 - **🗓️ Google Calendar Integration**: Full CRUD operations on your calendar events
@@ -35,7 +34,6 @@ Elena is an intelligent voice assistant built with Google's Agent Development Ki
 - **🔍 Find Free Time**: "Find a 30-minute slot tomorrow for a meeting"
 - **📊 Multi-Calendar Support**: Work with multiple calendars simultaneously
 
-## 🖼️ Screenshots
 
 <div align="center">
 
@@ -47,7 +45,7 @@ Elena is an intelligent voice assistant built with Google's Agent Development Ki
 
 </div>
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 calendar-voice-assistant/
@@ -73,7 +71,7 @@ calendar-voice-assistant/
 └── requirements.txt            # Python dependencies
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -135,7 +133,7 @@ uvicorn main:app --reload
 
 Visit `http://localhost:8000` to access the web interface!
 
-## 🎤 Usage Examples
+##  Usage Examples
 
 ### Voice Commands
 
@@ -158,7 +156,7 @@ Show my calendar for December 25th
 Delete the event "Lunch with John" on Friday
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Voice Settings
 
@@ -180,7 +178,7 @@ Available voices: Puck, Charon, Kore, Fenrir, Aoede, Leda, Orus, and Zephyr.
 - **Timezone**: Automatically detected from your calendar settings
 - **Event Format**: Supports both timed and all-day events
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 
@@ -208,14 +206,14 @@ uvicorn main:app --reload
 # The web interface automatically handles connection testing
 ```
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 - **OAuth 2.0**: Secure Google Calendar authentication
 - **Local Storage**: Tokens stored securely in user directory
 - **Minimal Permissions**: Only requests necessary calendar access
 - **No Data Storage**: No personal data stored on server
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -242,7 +240,7 @@ Google Calendar API has usage limits:
 - **Paid Tier**: Higher limits available
 - **Monitoring**: Check usage in Google Cloud Console
 
-## 📚 API Reference
+##  API Reference
 
 ### WebSocket Endpoints
 
@@ -257,7 +255,7 @@ Google Calendar API has usage limits:
 - `delete_event(event_id)`: Delete event
 - `get_current_time()`: Get current date/time
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our contributing guidelines:
 
@@ -267,22 +265,13 @@ We welcome contributions! Please see our contributing guidelines:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Google ADK](https://developers.google.com/adk) for the agent framework
 - [Google Gemini](https://ai.google.dev/) for AI capabilities
 - [FastAPI](https://fastapi.tiangolo.com/) for the web framework
 - [Google Calendar API](https://developers.google.com/calendar) for calendar integration
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Documentation**: [Project Wiki](https://github.com/your-repo/wiki)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/discussions)
 
 ---
 
