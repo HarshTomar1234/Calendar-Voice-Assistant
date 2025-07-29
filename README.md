@@ -268,7 +268,7 @@ We welcome contributions! Please see our contributing guidelines:
 
 ## Acknowledgments
 
-- [Google ADK](https://developers.google.com/adk) for the agent framework
+- [Google ADK](https://google.github.io/adk-docs/) for the agent framework
 - [Google Gemini](https://ai.google.dev/) for AI capabilities
 - [FastAPI](https://fastapi.tiangolo.com/) for the web framework
 - [Google Calendar API](https://developers.google.com/calendar) for calendar integration
